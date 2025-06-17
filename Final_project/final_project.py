@@ -1,7 +1,12 @@
 import streamlit as st
 import numpy as np
+import sys
 import joblib
 import os
+print("Python running from:", sys.executable)
+print("Joblib module path:", joblib.__file__)
+
+
 
 st.set_page_config(page_title="Energy Load Predictor", layout="centered")
 
